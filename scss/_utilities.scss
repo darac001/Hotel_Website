@@ -1,0 +1,63 @@
+$dark-color: #333;
+$light-color: #f7c08a;
+$medium-color: #444;
+$light-gray: #777;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: $light-color;
+}
+ul{
+  list-style: none;
+}
+
+.container{
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 1.5rem;
+  overflow: hidden;
+}
+
+.btn{
+  &-dark{
+  font-size: 1rem;
+  padding: 1rem 1.2rem;
+  color: $light-color;
+  background: $medium-color;
+  transition: background 1s;
+  cursor: pointer;
+  border: none;
+  
+  }
+  &-dark:hover{
+    background: $dark-color;    
+  }
+
+  &-light{
+    font-size: 1rem;
+    padding: 1rem 1.2rem;
+    color: black;
+    background: $light-color;
+    transition: background 1s;
+    cursor: pointer;
+    border: none;
+    }
+    &-light:hover{
+      background: $medium-color;  
+      color: $light-color;  
+    }
+}
+
+.highlight{
+  color: $light-color;
+}

@@ -55,7 +55,7 @@ ul {
 }
 
 #header-home {
-  background: url("/dist/img/hotel_room1.jpg") no-repeat center center/cover;
+  background: url("/img/hotel_room1.jpg") no-repeat center center/cover;
   height: 80vh;
   color: #f7c08a;
   border-bottom: 6px solid #f7c08a;
@@ -185,7 +185,7 @@ ul {
 }
 
 .feedback {
-  background: url("/dist/img/city-1.jpg") no-repeat center center/cover;
+  background: url("/img/city-1.jpg") no-repeat center center/cover;
   height: 60vh;
   color: #f7c08a;
   text-align: center;
